@@ -15,6 +15,10 @@ public class Person {
     this.career = career;
   }
 
+  public Person() {
+
+  }
+
   public String getName() {
     return name;
   }
