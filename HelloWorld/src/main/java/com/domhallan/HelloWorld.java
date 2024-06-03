@@ -10,4 +10,8 @@ public class HelloWorld {
   public void setName(String name) {
     this.name = name;
   }
+
+  public String sayHello() {
+    return String.format("Hello, %s!", name);
+  }
 }
