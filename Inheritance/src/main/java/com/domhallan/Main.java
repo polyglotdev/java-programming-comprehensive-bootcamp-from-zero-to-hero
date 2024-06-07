@@ -1,5 +1,6 @@
 package com.domhallan;
 
+import com.domhallan.marvel.base.Person;
 import com.domhallan.marvel.heros.CaptainAmerica;
 import com.domhallan.marvel.heros.IronMan;
 
@@ -23,5 +24,7 @@ public class Main {
     ironMan.age = 50;
 
     System.out.println("Iron Man is " + ironMan.age + " years old.");
+    ironMan.calculateAge(1970);
+    System.out.println(Person.numberOfHands = 2);
   }
 }
