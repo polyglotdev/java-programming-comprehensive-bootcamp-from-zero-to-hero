@@ -21,6 +21,8 @@ public class ArrayListDemo {
     System.out.println(total);
 
     List<String> countryNames = getStrings();
+    System.out.println("countryNames has " + countryNames.size() +
+                       " countries in list");
 
     for (String countryName : countryNames) {
       System.out.println(countryName);
